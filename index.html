@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pedro Pinturas - Reformas, Gesso, Pinturas, em Geral.</title>
+</head>
+<body>
+    <header>
+        <h1>Pedro Pinturas</h1>
+        <p>Reformas, Gesso  Pinturas em Geral</p>
+    </header>
+    <main>
+        <section id="servicos">
+            <h2>Nossos Serviços</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Pintura Residencial</h3>
+                    <p>Transforme sua casa com uma nova pintura.</p>
+                    <button class="btn-whatsapp" onclick="contatoWhatsApp('Gostaria de informações sobre pintura residencial.')">Falar pelo WhatsApp</button>
+                </div>
+                <div class="card">
+                    <h3>Instalação de Gesso</h3>
+                    <p>Acabamento em gesso para um ambiente mais elegante.</p>
+                    <button class="btn-whatsapp" onclick="contatoWhatsApp('Gostaria de saber sobre instalação de gesso.')">Falar pelo WhatsApp</button>
+                </div>
+                <div class="card">
+                    <h3>Reformas em Geral</h3>
+                    <p>Melhorias e renovação completa para seu espaço.</p>
+                    <button class="btn-whatsapp" onclick="contatoWhatsApp('Estou interessado(a) em reformas gerais.')">Falar pelo WhatsApp</button>
+                </div>
+            </div>
+        </section>
+        <section id="contato">
+            <h2>Entre em contato</h2>
+            <p>Atendemos todas as regiões. Fale conosco para orçamento!</p>
+            <button id="whatsapp-btn" onclick="contatoWhatsApp('Olá, preciso de mais informações sobre os serviços.')">Falar pelo WhatsApp</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
